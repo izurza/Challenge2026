@@ -1,0 +1,697 @@
+[
+  {
+    "name": "Andraka",
+    "highest_altitude_m": 138,
+    "vertices": [
+      {
+        "name": "Plentzia",
+        "distance_m": 3300,
+        "elevation_gain_m": 129,
+        "avg_gradient_pct": 3.91,
+        "max_gradient_pct": 9,
+        "coordinates_start": "43°24'06.4\"N 2°56'32.9\"W",
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Maruri",
+        "distance_m": 3500,
+        "elevation_gain_m": 114,
+        "avg_gradient_pct": 3.26,
+        "max_gradient_pct": 8,
+        "coordinates_start": "43°23'02.6\"N 2°52'39.9\"W",
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Aretxabalgane",
+    "highest_altitude_m": 332,
+    "vertices": [
+      {
+        "name": "Morga",
+        "distance_m": 4130,
+        "elevation_gain_m": 191,
+        "avg_gradient_pct": 4.66,
+        "max_gradient_pct": 9,
+        "coeficient": 52,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Larrabetxu",
+        "distance_m": 4180,
+        "elevation_gain_m": 235,
+        "avg_gradient_pct": 5.49,
+        "max_gradient_pct": 8.3,
+        "coeficient": 41,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Avellaneda",
+    "highest_altitude_m": 261,
+    "vertices": [
+      {
+        "name": "Sopuerta",
+        "distance_m": 2440,
+        "elevation_gain_m": 151,
+        "avg_gradient_pct": 6.34,
+        "max_gradient_pct": 9.4,
+        "coeficient": 28,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Otxaran",
+        "distance_m": 1650,
+        "elevation_gain_m": 105,
+        "avg_gradient_pct": 5.45,
+        "max_gradient_pct": 9.3,
+        "coeficient": 16,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Balcón de Bizkaia",
+    "highest_altitude_m": 431,
+    "vertices": [
+      {
+        "name": "Zugastieta",
+        "distance_m": 8230,
+        "elevation_gain_m": 341,
+        "avg_gradient_pct": 3.91,
+        "max_gradient_pct": 7.6,
+        "coeficient": 44,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Barazar",
+    "highest_altitude_m": 607,
+    "vertices": [
+      {
+        "name": "Zeanuri",
+        "distance_m": 6350,
+        "elevation_gain_m": 397,
+        "avg_gradient_pct": 6.53,
+        "max_gradient_pct": 8.4,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Beci",
+    "highest_altitude_m": 339,
+    "vertices": [
+      {
+        "name": "Sopuerta",
+        "distance_m": 3780,
+        "elevation_gain_m": 226,
+        "avg_gradient_pct": 6.04,
+        "max_gradient_pct": 8.4,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Bikotx-gane",
+    "highest_altitude_m": 570,
+    "vertices": [
+      {
+        "name": "Artea",
+        "distance_m": 4760,
+        "elevation_gain_m": 420,
+        "avg_gradient_pct": 8.8,
+        "max_gradient_pct": 13.5,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Orozko",
+        "distance_m": 8480,
+        "elevation_gain_m": 407,
+        "avg_gradient_pct": 4.61,
+        "max_gradient_pct": 12.3,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Dima",
+    "highest_altitude_m": 591,
+    "vertices": [
+      {
+        "name": "Dima",
+        "distance_m": 10410,
+        "elevation_gain_m": 454,
+        "avg_gradient_pct": 4.35,
+        "max_gradient_pct": 7.5,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Gerekiz",
+    "highest_altitude_m": 175,
+    "vertices": [
+      {
+        "name": "Muxika",
+        "distance_m": 3050,
+        "elevation_gain_m": 140,
+        "avg_gradient_pct": 4.4,
+        "max_gradient_pct": 6.3,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Olabarri",
+        "distance_m": 1720,
+        "elevation_gain_m": 79,
+        "avg_gradient_pct": 4.75,
+        "max_gradient_pct": 6,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Goiuria",
+    "highest_altitude_m": 395,
+    "vertices": [
+      {
+        "name": "Iurreta",
+        "distance_m": 4600,
+        "elevation_gain_m": 250,
+        "avg_gradient_pct": 5.62,
+        "max_gradient_pct": 10,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Gontzegaraigane",
+    "highest_altitude_m": 358,
+    "vertices": [
+      {
+        "name": "Bolibar",
+        "distance_m": 5090,
+        "elevation_gain_m": 231,
+        "avg_gradient_pct": 4.68,
+        "max_gradient_pct": 8.3,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Munitibar",
+        "distance_m": 2090,
+        "elevation_gain_m": 120,
+        "avg_gradient_pct": 6.23,
+        "max_gradient_pct": 8,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Humaran",
+    "highest_altitude_m": 249,
+    "vertices": [
+      {
+        "name": "Gueñes",
+        "distance_m": 3470,
+        "elevation_gain_m": 137,
+        "avg_gradient_pct": 4.33,
+        "max_gradient_pct": 6.2,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Sopuerta",
+        "distance_m": 8030,
+        "elevation_gain_m": 208,
+        "avg_gradient_pct": 2.18,
+        "max_gradient_pct": 6.8,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Jata",
+    "highest_altitude_m": 281,
+    "vertices": [
+      {
+        "name": "Bakio",
+        "distance_m": 4570,
+        "elevation_gain_m": 273,
+        "avg_gradient_pct": 5.61,
+        "max_gradient_pct": 9.6,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "La Escrita",
+    "highest_altitude_m": 432,
+    "vertices": [
+      {
+        "name": "Karrantza",
+        "distance_m": 5920,
+        "elevation_gain_m": 275,
+        "avg_gradient_pct": 4.54,
+        "max_gradient_pct": 6.8,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Las Muñecas",
+    "highest_altitude_m": 372,
+    "vertices": [
+      {
+        "name": "Sopuerta",
+        "distance_m": 3220,
+        "elevation_gain_m": 245,
+        "avg_gradient_pct": 7.38,
+        "max_gradient_pct": 10.5,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Lekoitzgane",
+    "highest_altitude_m": 349,
+    "vertices": [
+      {
+        "name": "Aulesti",
+        "distance_m": 4120,
+        "elevation_gain_m": 266,
+        "avg_gradient_pct": 6.2,
+        "max_gradient_pct": 9.5,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Markina",
+        "distance_m": 3430,
+        "elevation_gain_m": 261,
+        "avg_gradient_pct": 7.48,
+        "max_gradient_pct": 9.9,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Milloi",
+    "highest_altitude_m": 165,
+    "vertices": [
+      {
+        "name": "Markina",
+        "distance_m": 2710,
+        "elevation_gain_m": 126,
+        "avg_gradient_pct": 5.03,
+        "max_gradient_pct": 9.5,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Muniketagane",
+    "highest_altitude_m": 383,
+    "vertices": [
+      {
+        "name": "Iurreta",
+        "distance_m": 3690,
+        "elevation_gain_m": 267,
+        "avg_gradient_pct": 7.08,
+        "max_gradient_pct": 9.6,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Zugastieta",
+        "distance_m": 2720,
+        "elevation_gain_m": 256,
+        "avg_gradient_pct": 6.78,
+        "max_gradient_pct": 12.1,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Nabarniz",
+    "highest_altitude_m": 347,
+    "vertices": [
+      {
+        "name": "Arratzu",
+        "distance_m": 5900,
+        "elevation_gain_m": 307,
+        "avg_gradient_pct": 5.13,
+        "max_gradient_pct": 9,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Otsagarai(Paresi)",
+    "highest_altitude_m": 406,
+    "vertices": [
+      {
+        "name": "Busturia",
+        "distance_m": 5540,
+        "elevation_gain_m": 402,
+        "avg_gradient_pct": 6.56,
+        "max_gradient_pct": 15.2,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Mungia",
+        "distance_m": 7580,
+        "elevation_gain_m": 381,
+        "avg_gradient_pct": 4.89,
+        "max_gradient_pct": 13.1,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Errigoitia",
+    "highest_altitude_m": 269,
+    "vertices": [
+      {
+        "name": "Olabarri",
+        "distance_m": 4850,
+        "elevation_gain_m": 195,
+        "avg_gradient_pct": 4.14,
+        "max_gradient_pct": 7.1,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Gernika",
+        "distance_m": 4680,
+        "elevation_gain_m": 225,
+        "avg_gradient_pct": 4.65,
+        "max_gradient_pct": 7,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "San Cosme",
+    "highest_altitude_m": 242,
+    "vertices": [
+      {
+        "name": "Gordexola",
+        "distance_m": 2760,
+        "elevation_gain_m": 154,
+        "avg_gradient_pct": 5.35,
+        "max_gradient_pct": 10,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "San Pelaio",
+    "highest_altitude_m": 298,
+    "vertices": [
+      {
+        "name": "Bakio",
+        "distance_m": 3330,
+        "elevation_gain_m": 255,
+        "avg_gradient_pct": 7.79,
+        "max_gradient_pct": 11.2,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Bermeo",
+        "distance_m": 5620,
+        "elevation_gain_m": 267,
+        "avg_gradient_pct": 4.21,
+        "max_gradient_pct": 9.9,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Sarasola",
+    "highest_altitude_m": 260,
+    "vertices": [
+      {
+        "name": "Artea",
+        "distance_m": 2160,
+        "elevation_gain_m": 119,
+        "avg_gradient_pct": 5.65,
+        "max_gradient_pct": 7.3,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Zeberio",
+        "distance_m": null,
+        "elevation_gain_m": null,
+        "avg_gradient_pct": null,
+        "max_gradient_pct": null,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Sollube",
+    "highest_altitude_m": 387,
+    "vertices": [
+      {
+        "name": "Bermeo",
+        "distance_m": 4300,
+        "elevation_gain_m": 343,
+        "avg_gradient_pct": 8.15,
+        "max_gradient_pct": 11.8,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Larrauri",
+        "distance_m": 7260,
+        "elevation_gain_m": 365,
+        "avg_gradient_pct": 4.15,
+        "max_gradient_pct": 10.3,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Trabakua",
+    "highest_altitude_m": 427,
+    "vertices": [
+      {
+        "name": "Berriz",
+        "distance_m": 5450,
+        "elevation_gain_m": 282,
+        "avg_gradient_pct": 5.37,
+        "max_gradient_pct": 10.2,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Ubal",
+    "highest_altitude_m": 638,
+    "vertices": [
+      {
+        "name": "Karrantza",
+        "distance_m": 6830,
+        "elevation_gain_m": 482,
+        "avg_gradient_pct": 6.84,
+        "max_gradient_pct": 9.4,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Lanesota",
+        "distance_m": 4690,
+        "elevation_gain_m": 353,
+        "avg_gradient_pct": 7.47,
+        "max_gradient_pct": 11,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Unbe",
+    "highest_altitude_m": 209,
+    "vertices": [
+      {
+        "name": "Laukiz",
+        "distance_m": null,
+        "elevation_gain_m": null,
+        "avg_gradient_pct": null,
+        "max_gradient_pct": null,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Loiu",
+        "distance_m": 3860,
+        "elevation_gain_m": 179,
+        "avg_gradient_pct": 4.73,
+        "max_gradient_pct": 6.5,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      },
+      {
+        "name": "Plentzia",
+        "distance_m": null,
+        "elevation_gain_m": null,
+        "avg_gradient_pct": null,
+        "max_gradient_pct": null,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Urkiola",
+    "highest_altitude_m": 769,
+    "vertices": [
+      {
+        "name": "Mañaria",
+        "distance_m": 5615,
+        "elevation_gain_m": 579,
+        "avg_gradient_pct": 8.79,
+        "max_gradient_pct": 13.1,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  },
+  {
+    "name": "Vivero",
+    "highest_altitude_m": 418,
+    "vertices": [
+      {
+        "name": "El Gallo",
+        "distance_m": 7690,
+        "elevation_gain_m": 367,
+        "avg_gradient_pct": 4.26,
+        "max_gradient_pct": 12.1,
+        "coeficient": null,
+        "coordinates_start": null,
+        "gpx": null,
+        "elevation_profile": null
+      }
+    ]
+  }
+]
