@@ -256,13 +256,13 @@
               .attr("font-size", "12px")
               .text(seg.gradient.toFixed(1));
 
-            // Pequeña barra debajo del número
-            const barWidth = innerWidth / segments.length; // ancho proporcional al km
+            // Barra proporcional al tramo real
+            const barWidth = innerWidth * (seg.x1 - seg.x0) / totalKm;
 
             labelGroup
               .append("line")
-              .attr("x1", x(seg.mid) - barWidth / 2 + 1)
-              .attr("x2", x(seg.mid) + barWidth / 2 + 1)
+              .attr("x1", (x(seg.mid) - barWidth / 2) + 2)
+              .attr("x2", (x(seg.mid) + barWidth / 2) - 2)
               .attr("y1", innerHeight - 2)
               .attr("y2", innerHeight - 2)
               .attr("stroke", labelColor)
