@@ -6,10 +6,30 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:challege_2026/app/data/models/puerto.dart';
 
-class PuertoDetailPage extends GetView<PuertoController> {
-  final int? _expandedIndex;
+class PuertoDetailPage extends StatefulWidget {
+  const PuertoDetailPage({super.key});
 
-  PuertoDetailPage({super.key, int? expandedIndex}) : _expandedIndex = expandedIndex;
+  @override
+  State<PuertoDetailPage> createState() => _PuertoDetailPageState();
+}
+
+class _PuertoDetailPageState extends State<PuertoDetailPage> {
+  int? _expandedIndex;
+  final Map<int, GpxStats?> _gpxStatsCache = {};
+  final Map<int, bool> _loadingCache = {};
+
+  Future<void> _loadGpxIfNeeded(int idx, String gpxPath) async {
+    if (_gpxStatsCache[idx] != null || _loadingCache[idx] == true) return;
+    setState(() {
+      _loadingCache[idx] = true;
+    });
+    final controller = Get.find<PuertoController>();
+    final stats = await controller.loadGpxStats('assets/gpx/$gpxPath');
+    setState(() {
+      _gpxStatsCache[idx] = stats;
+      _loadingCache[idx] = false;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +44,22 @@ class PuertoDetailPage extends GetView<PuertoController> {
           padding: const EdgeInsets.all(16.0),
           child: ExpansionPanelList.radio(
             initialOpenPanelValue: _expandedIndex,
+            expansionCallback: (panelIndex, isExpanded) async {
+              if (!isExpanded) {
+                final sp = puerto.startingPoints[panelIndex];
+                await _loadGpxIfNeeded(panelIndex, sp.gpx);
+              }
+              setState(() {
+                _expandedIndex = isExpanded ? null : panelIndex;
+              });
+            },
             children: puerto.startingPoints.asMap().entries.map((entry) {
               final idx = entry.key;
               final sp = entry.value;
+              final stats = _gpxStatsCache[idx];
+              final isLoading = _loadingCache[idx] == true;
+              final isExpanded = _expandedIndex == idx;
+
               return ExpansionPanelRadio(
                 value: idx,
                 headerBuilder: (context, isExpanded) {
@@ -46,43 +79,27 @@ class PuertoDetailPage extends GetView<PuertoController> {
                 },
                 body: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      ElevatedButton(
-                        onPressed: () async {
-                          await controller.loadGpxStats('assets/gpx/${sp.gpx}');
-                        },
-                        child: const Text('Cargar altimetría'),
-                      ),
-                      Obx(() {
-                        final stats = controller.gpxStats.value;
-                        if (stats == null) {
-                          return const Padding(
-                            padding: EdgeInsets.all(16.0),
-                            child: Text('Pulsa "Cargar altimetría" para ver los datos'),
-                          );
-                        }
-                        return Column(
-                          children: [
-                            //GpxMap(points: stats.points),
-                            PortDataDashboard(
-                              totalKm: stats.totalDistance,
-                              maxEle: stats.endElevation,
-                              elevationGain: stats.totalElevationGain,
-                              avgGradient: stats.averageGradient,
-                              maxGradient: stats.maxGradient,
-                              coefficient: stats.coefficient,
-                            ),
-                            AltimetryChart(
-                              distances: stats.distances,
-                              elevations: stats.elevations,
-                            ),
-                          ],
-                        );
-                      }),
-                    ],
-                  ),
+                  child: isLoading
+                      ? const Center(child: CircularProgressIndicator())
+                      : stats != null
+                          ? Column(
+                              children: [
+                                GpxMap(points: stats.points),
+                                PortDataDashboard(
+                                  totalKm: stats.totalDistance,
+                                  maxEle: stats.endElevation,
+                                  elevationGain: stats.totalElevationGain,
+                                  avgGradient: stats.averageGradient,
+                                  maxGradient: stats.maxGradient,
+                                  coefficient: stats.coefficient,
+                                ),
+                                AltimetryChart(
+                                  distances: stats.distances,
+                                  elevations: stats.elevations,
+                                ),
+                              ],
+                            )
+                          : const Center(child: Text('No hay datos de altimetría para este GPX.')),
                 ),
               );
             }).toList(),

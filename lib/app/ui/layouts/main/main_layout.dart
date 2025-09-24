@@ -5,7 +5,7 @@ export 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MainLayout extends GetView<MainController> {
   final Widget child;
-  const MainLayout({Key? key, required this.child}) : super(key: key);
+  const MainLayout({super.key, required this.child});
 
   @override
   Widget build(BuildContext context) {

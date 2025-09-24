@@ -5,7 +5,7 @@ import '../../../controllers/home_controller.dart';
 import '../../../data/models/puerto.dart';
 
 class HomePage extends GetView<HomeController> {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   int getCompletedStartingPointsCount() {
     return puertos
@@ -57,7 +57,7 @@ class HomePage extends GetView<HomeController> {
 
                 return Card(
                   margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                  color: color.withOpacity(0.2),
+                  color: color.withAlpha(255*0.2.toInt()),
                   child: ListTile(
                     title: Text(
                       puerto.name,

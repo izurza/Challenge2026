@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class GPXStudioPage extends StatelessWidget {
   final String gpxName;
-  const GPXStudioPage({Key? key, required this.gpxName}) : super(key: key);
+  const GPXStudioPage({super.key, required this.gpxName});
 
   
 
