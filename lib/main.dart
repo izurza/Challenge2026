@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'app/data/services/dependency_injection.dart';
 import 'app/data/services/theme_service.dart';
 import 'app/data/services/translations_service.dart';
@@ -12,6 +13,7 @@ import 'app/ui/theme/themes.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   DependecyInjection.init();
+  await dotenv.load(fileName: ".env");
 
   runApp(const MyApp());
 }
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         return GetMaterialApp(
           title: 'Challege_2026',
           debugShowCheckedModeBanner: false,
-          theme: Themes().lightTheme,
+          theme: Themes().darkTheme,
           darkTheme: Themes().darkTheme,
           themeMode: ThemeService.instance.themeMode,
           translations: Translation(),

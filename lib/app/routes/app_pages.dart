@@ -1,4 +1,7 @@
 
+import 'package:challege_2026/app/bindings/puerto_binding.dart';
+import 'package:challege_2026/app/ui/pages/puerto_detail_page/puerto_detail_page.dart';
+import 'package:challege_2026/app/ui/pages/splash_page/splash_page.dart';
 import 'package:get/get.dart';
 
 
@@ -22,6 +25,17 @@ class AppPages {
       name: AppRoutes.HOME,
       page: () => const HomePage(),
       binding: HomeBinding(),
+      transition: _defaultTransition,
+    ),
+    GetPage(
+      name: AppRoutes.SPLASH,
+      page: () => const SplashPage(),
+      transition: _defaultTransition,
+    ),
+    GetPage(
+      name: AppRoutes.PUERTO_DETAIL,
+      page: () => PuertoDetailPage(),
+      binding: PuertoBinding(),
       transition: _defaultTransition,
     ),
   ];
