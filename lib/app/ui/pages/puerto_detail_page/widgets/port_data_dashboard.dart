@@ -70,7 +70,7 @@ class PortDataDashboard extends StatelessWidget {
                   style: TextStyle(color: Colors.white70, fontSize: 12),
                 ),
                 Text(
-                  '${elevationGain.toString} m',
+                  '${elevationGain.toStringAsFixed(0)} m',
                   style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
                 ),
               ],
@@ -124,7 +124,7 @@ class PortDataDashboard extends StatelessWidget {
                   style: TextStyle(color: Colors.white70, fontSize: 12),
                 ),
                 Text(
-                  '${coefficient.toString}',
+                  '${coefficient.toStringAsFixed(0)}',
                   style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
                 ),
               ],

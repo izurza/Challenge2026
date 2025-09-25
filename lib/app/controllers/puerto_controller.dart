@@ -8,10 +8,16 @@ class PuertoController extends GetxController {
 
 PuertoController();
 
-Future<GpxStats> loadGpxStats(String assetPath) async {
-    final gpxString = await rootBundle.loadString(assetPath);
-    final xmlDoc = XmlDocument.parse(gpxString);
+var gpxStats = Rxn<GpxStats>();
+var isLoading = false.obs;
 
+Future<void> loadGpxStats(String assetPath) async {
+    isLoading.value = true;
+    gpxStats.value = null;
+
+    final gpxString = await rootBundle.loadString(assetPath);
+
+    final xmlDoc = XmlDocument.parse(gpxString);
     final points = <LatLng>[];
     final elevations = <double>[];
 
@@ -54,7 +60,7 @@ Future<GpxStats> loadGpxStats(String assetPath) async {
     // Coeficiente de APM (simplificado)
     final coef = (totalElevationGain * totalElevationGain) / (totalDistanceKm * 100);
 
-    return GpxStats(
+    gpxStats.value = GpxStats(
       points: points,
       distances: distances,
       elevations: elevations,
@@ -67,5 +73,6 @@ Future<GpxStats> loadGpxStats(String assetPath) async {
       endElevation: elevations.last,
       coefficient: coef,
     );
+    isLoading.value = false;
   }
 }
