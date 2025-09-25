@@ -25,6 +25,7 @@ Future<void> loadGpxStats(String assetPath) async {
     for (final pt in xmlDoc.findAllElements('trkpt')) {
       final lat = double.parse(pt.getAttribute('lat')!);
       final lon = double.parse(pt.getAttribute('lon')!);
+      // ignore: deprecated_member_use
       final ele = double.parse(pt.findElements('ele').first.text);
       points.add(LatLng(lat, lon));
       elevations.add(ele);

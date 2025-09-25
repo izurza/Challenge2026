@@ -22,8 +22,8 @@ final List<Puerto> puertos = [
         gpx: "Aretxabalgane-Morga.gpx",
       ),
       StartingPoint(
-        name: "Larrabetxu",
-        gpx: "Aretxabalgane-Larrabetxu.gpx",
+        name: "Larrabetzu",
+        gpx: "Aretxabalgane-Larrabetzu.gpx",
       ),
     ],
   ),
@@ -299,7 +299,7 @@ final List<Puerto> puertos = [
         gpx: "Ubal-Karrantza.gpx",
       ),
       StartingPoint(
-        name: "Lanesota",
+        name: "Lanestosa",
         gpx: "Ubal-Lanestosa.gpx",
       ),
     ],

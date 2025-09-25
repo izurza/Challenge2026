@@ -15,6 +15,7 @@ class GpxMap extends StatelessWidget {
     }
 
     final bounds = LatLngBounds.fromPoints(points);
+    
 
     return SizedBox(
       height: 250, // altura dentro del ExpansionPanel
@@ -22,7 +23,7 @@ class GpxMap extends StatelessWidget {
         options: MapOptions(
           initialCenter: bounds.center,
           initialZoom: 13,
-          cameraConstraint: CameraConstraint.contain(bounds: bounds),
+          cameraConstraint: CameraConstraint.unconstrained(),
         ),
         children: [
           TileLayer(
